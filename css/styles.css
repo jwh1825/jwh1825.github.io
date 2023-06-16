@@ -1,0 +1,289 @@
+body {
+  font-family: 'Kanit', sans-serif;
+}
+
+h1, h2 {
+  text-align: center;
+  font-family: 'Cinzel', serif;
+}
+
+h3, h4, h5, p {
+  font-family: 'Kanit', sans-serif;
+}
+
+.nav-link {
+  font-family: 'Kanit', sans-serif;
+  color: #DDE6ED;
+}
+
+.nav-text:hover {
+  color: #9DB2BF;
+}
+
+.home-section {
+  padding-bottom: 50px;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+#home-heading {
+  text-decoration: underline;
+  padding-top: 40px;
+}
+
+.home-row {
+  align-items: center;
+}
+
+#personal-pic-div {
+
+}
+
+#personal-pic {
+  height: 550px;
+  width: 450px;
+  border-radius: 45px;
+  margin-top: 40px;
+
+}
+
+.me-img {
+  width: 30%;
+}
+
+.home-text {
+  padding-top: 15%;
+  text-align: center;
+  font-size: 40px;
+  color: #27374D;
+}
+
+#home-caro-div {
+
+}
+
+.home-text-caro {
+  text-align: center;
+  font-size: 70px;
+  color: #27374D;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.home-text-caro-div {
+  padding-bottom: 15%;
+}
+
+.resume-section {
+  padding-bottom: 40px;
+}
+
+.resume-info-div {
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
+.resume-box {
+  padding: 0% 25%
+}
+
+#resume-heading {
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.resume-subheading {
+  padding-top: 20px;
+  padding-left: 5%;
+}
+
+.resume-subhead {
+  padding-left: 5%;
+}
+
+.resume-text {
+  padding-left: 5%;
+}
+
+.linkgit-section {
+
+}
+
+.linkgit-text {
+  text-align: center;
+  color: #DDE6ED;
+}
+
+.linkgit-link {
+  padding-right: 0%;
+  display: block;
+  text-align: center;
+  color: #DDE6ED;
+  font-size: 2rem;
+  padding-bottom: 50px;
+}
+
+.linkgit-link:hover {
+  color: #9DB2BF;
+}
+
+#linkedin-button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  height: 150px;
+  width: 350px;
+  border-radius: 45px;
+}
+
+#github-button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  height: 150px;
+  width: 350px;
+  border-radius: 45px;
+}
+
+#linkedin-button:hover {
+  border: 5px solid #27374D;
+}
+
+#github-button:hover {
+  border: 5px solid #27374D;
+}
+
+.about-section {
+  padding-bottom: 50px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.about-div {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.contact-section {
+  padding-bottom: 50px;
+}
+
+#contact-heading {
+  padding-top: 40px;
+}
+
+#contact {
+  position: relative;
+}
+
+.contact-row {
+  padding: 0% 10%;
+}
+
+.contact-box-2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-text {
+  text-align: center;
+}
+
+#email-icon {
+  padding-top: 40px;
+}
+
+#insta-text {
+  color: #27374D;
+  text-decoration: underline;
+}
+
+#insta-text:hover {
+  color: #526D82;
+}
+
+#twitter-text {
+  color: #27374D;
+  text-decoration: underline;
+}
+
+#twitter-text:hover {
+  color: #526D82;
+}
+
+#name-text {
+  padding-top: 40px;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: #27374D;
+  border: none;
+  color: #DDE6ED;
+  padding: 4px 8px;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Kanit', sans-serif;
+}
+
+.icon {
+  padding: 3% 46.5%;
+  color: #27374D;
+}
+
+.mail-form {
+
+}
+
+.heading {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.footer-text {
+  text-align: center;
+}
+
+.white-section {
+  background-color: #DDE6ED;
+}
+
+.navy-section {
+  background-color: #27374D;
+}
+
+.white-text {
+  color: #DDE6ED;
+}
+
+.navy-text {
+  color: #27374D;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.right {
+  display: block;
+  margin: auto;
+  width: 25%;
+}
+
+.left {
+  display: block;
+  margin: auto;
+  width: 75%;
+}
