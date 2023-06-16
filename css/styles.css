@@ -67,7 +67,6 @@ h3, h4, h5, p {
 /* .home-text-caro-div {
   padding-bottom: 15%;
 } */
-
 .resume-section {
   padding-bottom: 40px;
 }
@@ -99,9 +98,7 @@ h3, h4, h5, p {
   padding-left: 5%;
 }
 
-.linkgit-section {
-
-}
+.linkgit-section {}
 
 .linkgit-text {
   text-align: center;
@@ -181,7 +178,6 @@ h3, h4, h5, p {
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 
 #message-area {
@@ -237,12 +233,9 @@ input[type=button], input[type=submit], input[type=reset] {
 .icon {
   padding: 3% 0%;
   color: #27374D;
-
 }
 
-.mail-form {
-
-}
+.mail-form {}
 
 .heading {
   padding-top: 40px;
