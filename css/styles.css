@@ -57,7 +57,7 @@ h3, h4, h5, p {
 
 .home-text-caro {
   text-align: center;
-  font-size: calc(45px + .390625vw);
+  font-size: 8vmin;
   color: #27374D;
   padding-left: 20%;
   padding-right: 20%;
