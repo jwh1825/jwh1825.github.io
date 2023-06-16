@@ -57,11 +57,11 @@ h3, h4, h5, p {
 
 .home-text-caro {
   text-align: center;
-  font-size: 4em;
+  font-size: calc(45px + .390625vw);
   color: #27374D;
-  padding-left: 10%;
-  padding-right: 10%;
-  height: 375px;
+  padding-left: 20%;
+  padding-right: 20%;
+  height: 225px;
 }
 
 /* .home-text-caro-div {
@@ -185,8 +185,8 @@ h3, h4, h5, p {
 }
 
 #mail-form {
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 12%;
+  padding-right: 12%;
 }
 
 .contact-text {
