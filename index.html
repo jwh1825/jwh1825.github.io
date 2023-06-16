@@ -76,9 +76,38 @@
 
       <h1 class="navy-text" id="home-heading">Jeffrey W. Hitchcock</h1>
 
-      <div class="row home-row">
+      <div class="row">
 
-        <div class="col-lg-6">
+        <div class="col-lg-6" id="caro-div">
+          <p class="navy-text home-text">I am,</p>
+          <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="3000" data-pause="hover">
+            <div class="carousel-inner home-text-caro-div">
+              <div class="carousel-item active container-fluid">
+                <h3 class="home-text-caro">an Aspiring Software Engineer</h2>
+              </div>
+              <div class="carousel-item container-fluid">
+                <h3 class="home-text-caro">a Univeristy of Michigan Student</h2>
+              </div>
+              <div class="carousel-item container-fluid">
+                <h3 class="home-text-caro">Collaborative and Eager to Learn</h2>
+              </div>
+              <div class="carousel-item container-fluid">
+                <h3 class="home-text-caro">Motivated and Dependable</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6" id="my-img-div">
+          <img class="my-img" src="images/me.JPG" alt="jeffreyhitchcock-mockup">
+        </div>
+
+      </div>
+
+    </section>
+
+      <!--
+
           <p class="navy-text home-text">I am,</p>
           <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="3000" data-pause="hover">
             <div class="carousel-inner home-text-caro-div">
@@ -96,20 +125,9 @@
               </div>
             </div>
           </div>
-        </div>
-
-        <div class="col-lg-6">
-          <div class="me-img-div container-fluid" id="personal-pic-div">
-            <img class="me-img center" id="personal-pic" src="images/me.JPG" alt="jeffreyhitchcock-mockup">
-          </div>
-        </div>
-
-      </div>
 
 
-
-
-  </section>
+  -->
 
   <!-- About Me Section -->
 
@@ -251,7 +269,7 @@
       <h2 class="navy-text" id="contact-heading">Contact & Other Socials</h2>
 
       <div class="row contact-row">
-        <div class="col-lg-6 contact-box">
+        <div class="col-lg-6 contact-box text-center">
           <i class="icon fa-solid fa-envelope fa-3x" id="email-icon"></i>
           <h5 class="navy-text contact-text">jeffreyhitchcock25@gmail.com</h5>
           <i class="icon fa-solid fa-phone fa-3x"></i>
@@ -263,7 +281,7 @@
         </div>
 
         <div class="col-lg-6 contact-box-2">
-          <form class="mail-form" action="https://formsubmit.co/jeffreyhitchcock25@gmail.com" method="POST" enctype="text/plain">
+          <form class="mail-form container-fluid" action="https://formsubmit.co/jeffreyhitchcock25@gmail.com" method="POST" enctype="text/plain" id="mail-form">
             <div class="">
               <h4 class="navy-text contact-text-2" Name id="name-text">Name: </h4>
               <input type="text" name="yourName" required> <br>
@@ -274,7 +292,7 @@
             </div>
             <div class="">
               <h4 class="navy-text contact-text-2">Message: </h4>
-              <textarea class="text-area" name="youMessage" rows="10" cols="40" required></textarea> <br>
+              <textarea class="text-area" name="youMessage" rows="10" cols="30" id="text-area" required></textarea> <br>
               <input class="text-area" type="submit" name="input" value="Submit">
             </div>
           </form>

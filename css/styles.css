@@ -35,44 +35,38 @@ h3, h4, h5, p {
   align-items: center;
 }
 
-#personal-pic-div {
-
+#my-img-div {
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 40px;
 }
 
-#personal-pic {
-  height: 550px;
-  width: 450px;
+.my-img {
+  width: 60%;
   border-radius: 45px;
-  margin-top: 40px;
-
-}
-
-.me-img {
-  width: 30%;
+  margin: auto;
+  display: block;
 }
 
 .home-text {
-  padding-top: 15%;
+  padding-top: 40px;
   text-align: center;
   font-size: 40px;
   color: #27374D;
 }
 
-#home-caro-div {
-
-}
-
 .home-text-caro {
   text-align: center;
-  font-size: 70px;
+  font-size: 4em;
   color: #27374D;
   padding-left: 10%;
   padding-right: 10%;
+  height: 300px;
 }
 
-.home-text-caro-div {
+/* .home-text-caro-div {
   padding-bottom: 15%;
-}
+} */
 
 .resume-section {
   padding-bottom: 40px;
@@ -187,6 +181,16 @@ h3, h4, h5, p {
   display: flex;
   align-items: center;
   justify-content: center;
+
+}
+
+#message-area {
+  width: 100%
+}
+
+#mail-form {
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .contact-text {
@@ -231,8 +235,9 @@ input[type=button], input[type=submit], input[type=reset] {
 }
 
 .icon {
-  padding: 3% 46.5%;
+  padding: 3% 0%;
   color: #27374D;
+
 }
 
 .mail-form {
