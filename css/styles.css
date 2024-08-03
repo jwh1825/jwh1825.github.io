@@ -54,17 +54,52 @@ h3, h4, h5, p {
   text-align: center;
   font-size: 35px;
   color: #27374D;
-  padding-top: 10px;
 }
 
-.home-text-caro {
+/* .home-text-caro {
   text-align: center;
   font-size: 9vmin;
   color: #27374D;
   padding-left: 20%;
   padding-right: 20%;
   height: 250px;
+} */
+
+/* Set a consistent height for the carousel container */
+#carouselExamplesSlidesOnly {
+  height: 210px;  /* Set a consistent height for the carousel */
+  display: flex;
+  align-items: center;  /* Center align items vertically */
+  justify-content: center;
+  overflow: hidden;  /* Hide overflow if any text exceeds the container */
 }
+
+/* Adjust the inner text styles to center align */
+.home-text-caro {
+  text-align: center;
+  font-size: 5vw;  /* Use viewport width for consistent scaling */
+  color: #27374D;
+  /* padding: 0 10%;  /* Padding for inner content */ */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;  /* Set to fill the parent container */
+  width: 100%;  /* Fill the parent container */
+  box-sizing: border-box;  /* Include padding in element's total width and height */
+}
+
+@media (max-width: 768px) {
+  .home-text-caro {
+    font-size: 8vw;  /* Responsive font size adjustment */
+  }
+}
+
+@media (max-width: 480px) {
+  .home-text-caro {
+    font-size: 10vw;  /* Further adjustment for small screens */
+  }
+}
+
 
 .resume-section {
   padding-bottom: 40px;
